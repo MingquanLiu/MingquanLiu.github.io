@@ -26,6 +26,10 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
+- title: What is GitHub?
+  description: After watching this video, close the first issue in your repository.
+  video: https://youtube.com/embed/w3jLJU7DT5E
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
