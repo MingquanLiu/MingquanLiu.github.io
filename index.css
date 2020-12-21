@@ -7,9 +7,8 @@
     min-width: 1024px;
     height: 100%;
     position: relative;
-    overflow-x: auto;
-    overflow-y: hidden;
-
+    /* overflow-x: auto;
+    overflow-y: hidden; */
 }
 
 .my-header{
@@ -21,21 +20,18 @@
 
 .home-page-body{
     flex: 1 0 0px;
-    /* position: relative; */
     display: flex;
+    position: relative;
     height: 100%;
     background: #f5f6f7;
-    /* height: 1000px; */
-    /* overflow-x: auto;
-    overflow-y: auto; */
-
 }
 .left-content{
-    padding-left: 34px;
-    padding-right: 34px;
-    width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 300px;
     position: relative;
     text-align: center;
+    line-height: 40px;
 
     /* padding: 0 16px; */
     /* z-index: 128; */
@@ -44,11 +40,15 @@
 
 .intro-content{
     text-align: left;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 .right-content{
     flex: 1 0 0px;
     overflow: auto;
-    padding: 5px 24px 24px;
+    padding: 12px 12px;
+    overflow-x: auto;
+    overflow-y: auto;
 }
 .project{
     /* background-color: beige; */
@@ -71,10 +71,14 @@
 .project-content{
     min-height: 300px;
     margin-top: 20px;
+    line-height: 25px;
+    
     display: flex;
 }
 .project-description{
     margin-left:20px;
+    font-size: 18px;
 }
+
 
 
