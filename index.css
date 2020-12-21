@@ -72,13 +72,18 @@
     min-height: 300px;
     margin-top: 20px;
     line-height: 25px;
-    
+    align-items: center;
     display: flex;
 }
+
 .project-description{
     margin-left:20px;
     font-size: 18px;
 }
 
+.image{
+    width: 500px;
+    height: 300px;
+}
 
 
