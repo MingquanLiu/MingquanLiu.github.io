@@ -1,4 +1,80 @@
-.myHeader{
-    text-align: center;
-    color: aqua
+.my-portfolio-page{
+    box-shadow: 0 2px 16px 0 rgba(31,35,41,.05);
+    position: relative;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-width: 1024px;
+    height: 100%;
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+
 }
+
+.my-header{
+    text-align: center;
+    color: #646a73;
+    position: relative;
+    z-index: 700;
+}
+
+.home-page-body{
+    flex: 1 0 0px;
+    /* position: relative; */
+    display: flex;
+    height: 100%;
+    background: #f5f6f7;
+    /* height: 1000px; */
+    /* overflow-x: auto;
+    overflow-y: auto; */
+
+}
+.left-content{
+    padding-left: 34px;
+    padding-right: 34px;
+    width: 400px;
+    position: relative;
+    text-align: center;
+
+    /* padding: 0 16px; */
+    /* z-index: 128; */
+}
+
+
+.intro-content{
+    text-align: left;
+}
+.right-content{
+    flex: 1 0 0px;
+    overflow: auto;
+    padding: 5px 24px 24px;
+}
+.project{
+    /* background-color: beige; */
+    border-radius: 4px;
+    padding-left: 10px;
+    background: #ffffff;
+    position: relative;
+    padding: 20px 24px 12px 60px;
+    border-bottom: 3px solid #f5f6f7;
+}
+.project-title{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #1d252f;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(187,191,196,.5)
+}
+.project-content{
+    min-height: 300px;
+    margin-top: 20px;
+    display: flex;
+}
+.project-description{
+    margin-left:20px;
+}
+
+
